@@ -1,0 +1,5 @@
+---
+- name: Installing Jenkins
+  hosts: group_artifact
+  roles: 
+    - jenkins_role
